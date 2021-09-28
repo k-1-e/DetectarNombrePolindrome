@@ -1,4 +1,4 @@
-function palindromeChecker(str) {
+function palindromeChecker(str : string) {
   const newStr = str.replace(/[\W_]/g, "").toLowerCase()
   const strReversed = newStr.split("").reverse().join("")
 
